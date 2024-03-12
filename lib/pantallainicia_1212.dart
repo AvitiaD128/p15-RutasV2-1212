@@ -7,7 +7,7 @@ class PantallaInicia_1212 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("pantalla inicial Avitia 1212"),
+        title: Text("Card Container Avitia 1212"),
         backgroundColor: Colors.blueGrey,
       ),
       body: Center(

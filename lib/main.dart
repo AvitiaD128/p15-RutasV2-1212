@@ -11,6 +11,7 @@ class MiApp1212 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
         "/": (context) => PantallaInicia_1212(),

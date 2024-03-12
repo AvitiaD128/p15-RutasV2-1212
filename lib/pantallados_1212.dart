@@ -8,17 +8,26 @@ class Pantallados_1212 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("pantallados Avitia1212"),
+        title: Text(" Card 2 Avitia1212"),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            ElevatedButton(
-              onPressed: () {},
-              child: Text("Avitia Ejemploo"),
+        child: Card(
+          child: Container(
+            width: double.infinity,
+            color: Color(0xff0099ff),
+            height: 250,
+            child: Card(
+              color: Color(0xff79f9be),
+              margin: EdgeInsets.all(32),
+              child: Padding(
+                padding: EdgeInsets.all(16),
+                child: Text(
+                  'Avitia Diego Ramon 1212',
+                  style: TextStyle(fontSize: 30, color: Color(0xff000000)),
+                ),
+              ),
             ),
-          ],
+          ),
         ),
       ),
     );
