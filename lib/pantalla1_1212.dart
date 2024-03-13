@@ -12,17 +12,16 @@ class Pantalla1_1212 extends StatelessWidget {
         backgroundColor: Colors.blueGrey,
       ),
       body: Center(
-        child: Card(
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-          elevation: 10,
-          color: Colors.blueAccent,
-          child: Padding(
-            padding: EdgeInsets.all(20),
-            child: Text(
-              "Card Avitia",
-              style: TextStyle(fontSize: 30, color: Colors.white),
-            ),
+        child: Container(
+          color: Color(0xffa75be5),
+          width: 170,
+          height: 170,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Avitia 1212',
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
       ),

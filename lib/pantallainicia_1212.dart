@@ -11,23 +11,39 @@ class PantallaInicia_1212 extends StatelessWidget {
         backgroundColor: Colors.blueGrey,
       ),
       body: Center(
-          child: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          ElevatedButton(
-            onPressed: () {
-              Navigator.pushNamed(context, "/pantalla1_1212");
-            },
-            child: Text("mover pantalla 1"),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              Navigator.pushNamed(context, "/pantallados_1212");
-            },
-            child: Text("mover pantalla 2"),
-          )
-        ],
-      )),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "/pantalla1_1212");
+              },
+              style: ElevatedButton.styleFrom(
+                primary: Colors.red, // Cambia el color de fondo del botón
+              ),
+              child: Text("Mover pantalla 1"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "/pantallados_1212");
+              },
+              style: ElevatedButton.styleFrom(
+                primary: Colors.green, // Cambia el color de fondo del botón
+              ),
+              child: Text("Mover pantalla 2"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "/pantalla3_1212");
+              },
+              style: ElevatedButton.styleFrom(
+                primary: Colors.blue, // Cambia el color de fondo del botón
+              ),
+              child: Text("Mover pantalla 3"),
+            )
+          ],
+        ),
+      ),
     );
   }
 }
